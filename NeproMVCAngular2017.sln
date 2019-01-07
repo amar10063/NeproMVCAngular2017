@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeproMVCAngular2017", "NeproMVCAngular2017\NeproMVCAngular2017.csproj", "{6CBBEF82-53B1-4086-91F9-87A94C641911}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CBBEF82-53B1-4086-91F9-87A94C641911}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CBBEF82-53B1-4086-91F9-87A94C641911}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CBBEF82-53B1-4086-91F9-87A94C641911}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CBBEF82-53B1-4086-91F9-87A94C641911}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F7145AE5-AED0-464A-9646-4789D149ED38}
+	EndGlobalSection
+EndGlobal
