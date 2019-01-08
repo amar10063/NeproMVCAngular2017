@@ -179,9 +179,6 @@
     <Content Include="Content\assets\img\dashboard_icon.png" />
     <Content Include="Content\assets\img\default-avatar.png" />
     <Content Include="Content\assets\img\edit_icon.png" />
-    <Content Include="Content\assets\img\faces\avatar.jpg" />
-    <Content Include="Content\assets\img\faces\card-profile1-square.jpg" />
-    <Content Include="Content\assets\img\faces\marc.jpg" />
     <Content Include="Content\assets\img\favicon.png" />
     <Content Include="Content\assets\img\flags\AU.png" />
     <Content Include="Content\assets\img\flags\BR.png" />
@@ -193,6 +190,7 @@
     <Content Include="Content\assets\img\lock.jpg" />
     <Content Include="Content\assets\img\login.jpg" />
     <Content Include="Content\assets\img\nepro-logo.png" />
+    <Content Include="Content\assets\img\pickList_icon.png" />
     <Content Include="Content\assets\img\placeholder.jpg" />
     <Content Include="Content\assets\img\product1.jpg" />
     <Content Include="Content\assets\img\product2.jpg" />
@@ -200,6 +198,8 @@
     <Content Include="Content\assets\img\profile_icon.png" />
     <Content Include="Content\assets\img\rack_icon.png" />
     <Content Include="Content\assets\img\register.jpg" />
+    <Content Include="Content\assets\img\roleAssignment_icon.png" />
+    <Content Include="Content\assets\img\role_icon.png" />
     <Content Include="Content\assets\img\setting_icon.png" />
     <Content Include="Content\assets\img\setup_icon.png" />
     <Content Include="Content\assets\img\sidebar-1.jpg" />
@@ -210,6 +210,7 @@
     <Content Include="Content\assets\img\stillage_icon.png" />
     <Content Include="Content\assets\img\truckDriver_icon.png" />
     <Content Include="Content\assets\img\truck_icon.png" />
+    <Content Include="Content\assets\img\user_icon.png" />
     <Content Include="Content\assets\js\core\bootstrap-material-design.min.js" />
     <Content Include="Content\assets\js\core\jquery.min.js" />
     <Content Include="Content\assets\js\core\popper.min.js" />
@@ -244,7 +245,6 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="package.json" />
-    <Content Include="Content\assets\img\faces\Thumbs.db" />
     <Content Include="Content\assets\img\flags\Thumbs.db" />
     <Content Include="Content\assets\img\Thumbs.db" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
