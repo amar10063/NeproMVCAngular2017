@@ -14931,7 +14931,7 @@ a {
         .sidebar .nav .caret {
             margin-top: 13px;
             position: absolute;
-            right: 6px
+            right: -5px;
         }
 
         .sidebar .nav li > a:focus, .sidebar .nav li > a:hover {
