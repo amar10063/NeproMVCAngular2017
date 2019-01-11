@@ -162,6 +162,7 @@
     <Content Include="app\header\header.component.html" />
     <Content Include="app\navmenu\navmenu.component.html" />
     <Content Include="app\setup\aisle\aisle.component.html" />
+    <Content Include="app\setup\createAisle\createAisle.component.html" />
     <Content Include="app\setup\setupbin\setup.component.html" />
     <Content Include="Content\assets\css\style.css" />
     <Content Include="Content\assets\css\theme-style.css" />
@@ -187,6 +188,7 @@
     <Content Include="Content\assets\img\flags\RO.png" />
     <Content Include="Content\assets\img\flags\US.png" />
     <Content Include="Content\assets\img\image_placeholder.jpg" />
+    <Content Include="Content\assets\img\location_icon.png" />
     <Content Include="Content\assets\img\lock.jpg" />
     <Content Include="Content\assets\img\login.jpg" />
     <Content Include="Content\assets\img\nepro-logo.png" />
@@ -211,6 +213,7 @@
     <Content Include="Content\assets\img\truckDriver_icon.png" />
     <Content Include="Content\assets\img\truck_icon.png" />
     <Content Include="Content\assets\img\user_icon.png" />
+    <Content Include="Content\assets\img\warehouse_icon.png" />
     <Content Include="Content\assets\js\core\bootstrap-material-design.min.js" />
     <Content Include="Content\assets\js\core\jquery.min.js" />
     <Content Include="Content\assets\js\core\popper.min.js" />
@@ -304,6 +307,7 @@
     <TypeScriptCompile Include="app\main.ts" />
     <TypeScriptCompile Include="app\navmenu\navmenu.component.ts" />
     <TypeScriptCompile Include="app\setup\aisle\aisle.component.ts" />
+    <TypeScriptCompile Include="app\setup\createAisle\createAisle.component.ts" />
     <TypeScriptCompile Include="app\setup\setupbin\setup.component.ts" />
   </ItemGroup>
   <ItemGroup>
