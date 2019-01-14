@@ -164,6 +164,10 @@
     <Content Include="app\setup\aisle\aisle.component.html" />
     <Content Include="app\setup\createAisle\createAisle.component.html" />
     <Content Include="app\setup\setupbin\setup.component.html" />
+    <Content Include="Content\assets\css\ag-grid.css" />
+    <Content Include="Content\assets\css\ag-theme-balham.css" />
+    <Content Include="Content\assets\css\font-awesome\4.5.0\css\font-awesome.min.css" />
+    <Content Include="Content\assets\css\font-awesome\4.5.0\fonts\fontawesome-webfont.svg" />
     <Content Include="Content\assets\css\style.css" />
     <Content Include="Content\assets\css\theme-style.css" />
     <Content Include="Content\assets\demo\demo.css" />
@@ -214,6 +218,7 @@
     <Content Include="Content\assets\img\truck_icon.png" />
     <Content Include="Content\assets\img\user_icon.png" />
     <Content Include="Content\assets\img\warehouse_icon.png" />
+    <Content Include="Content\assets\js\ag-grid-community.min.noStyle.js" />
     <Content Include="Content\assets\js\core\bootstrap-material-design.min.js" />
     <Content Include="Content\assets\js\core\jquery.min.js" />
     <Content Include="Content\assets\js\core\popper.min.js" />
@@ -250,6 +255,10 @@
     <Content Include="package.json" />
     <Content Include="Content\assets\img\flags\Thumbs.db" />
     <Content Include="Content\assets\img\Thumbs.db" />
+    <Content Include="Content\assets\css\font-awesome\4.5.0\fonts\fontawesome-webfont.eot" />
+    <Content Include="Content\assets\css\font-awesome\4.5.0\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Content\assets\css\font-awesome\4.5.0\fonts\fontawesome-webfont.woff" />
+    <Content Include="Content\assets\css\font-awesome\4.5.0\fonts\fontawesome-webfont.woff2" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />

@@ -6,13 +6,13 @@
                     <div class="card">
                         <div class="card-header card-header-icon card-header-rose">
                             <div class="card-icon">
-                                <i class="material-icons">assignment</i>
+                                <h4 class="card-title ">All Aisles</h4>
                             </div>
-                            <h4 class="card-title ">Simple Table</h4>
+
                         </div>
                         <div class="card-body">
                             <div class="table-responsive">
-                                <table class="table">
+                                <!--<table class="table">
                                     <thead class=" text-primary">
                                     <th>
                                         ID
@@ -134,13 +134,44 @@
                                             </td>
                                         </tr>
                                     </tbody>
-                                </table>
+                                </table>-->
+                                <div id="myGrid1" style="height: 200px; width:100%;" class="ag-theme-balham"></div>
                             </div>
                         </div>
                     </div>
                 </div>
-                                
+
             </div>
         </div>
     </div>
+    <script type="text/javascript" charset="utf-8">
+
+        var columnDefs = [
+            { headerName: "All", field: "all", width: 150 },
+            { headerName: "Site", field: "site", width: 250 },
+            { headerName: "Warehouse", field: "warehouse", width: 250 },
+            { headerName: "Location", field: "location", width: 250 }
+        ];
+
+        var rowData = [
+            { all: "check", site: "Noida", warehouse: "Warehouse 1", location: "Location 1"},
+            { all: "check", site: "Ghaziabad", warehouse: "Warehouse 2", location: "Location 2" },
+            { all: "check", site: "Gurugram", warehouse: "Warehouse 3", location: "Location 3" },
+            { all: "check", site: "Noida", warehouse: "Warehouse 4", location: "Location 4" },
+            { all: "check", site: "Delhi", warehouse: "Warehouse 5", location: "Location 5" }
+
+        ];
+
+        var gridOptions = {
+            columnDefs: columnDefs,
+            rowData: rowData,
+            enableSorting: true,
+            enableFilter: true
+        };
+
+        var eGridDiv = document.querySelector('#myGrid1');
+
+
+        new agGrid.Grid(eGridDiv, gridOptions);
+    </script>
 </div>
