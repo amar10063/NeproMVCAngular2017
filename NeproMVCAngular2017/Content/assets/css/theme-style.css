@@ -102,7 +102,8 @@ body {
     line-height: 1.5;
     color: #212529;
     text-align: left;
-    background-color: #fafafa
+    background-color: #fafafa;
+    padding-top: 0 !important;
 }
 
 [tabindex="-1"]:focus {
@@ -11393,7 +11394,7 @@ html * {
 }
 
 .h4, h4 {
-    font-size: 1.125rem;
+    font-size: 1.5rem;
     font-weight: 300
 }
 
@@ -13098,7 +13099,7 @@ fieldset[disabled] .form-group.is-focused .togglebutton label {
 }
 
 .card.bg-rose, .card .card-header-rose .card-icon, .card .card-header-rose .card-text, .card .card-header-rose:not(.card-header-icon):not(.card-header-text), .card.card-rotate.bg-rose .back, .card.card-rotate.bg-rose .front {
-    background: linear-gradient(60deg, #ec407a, #d81b60)
+    background: #09a777;
 }
 
 .card .card-header-primary .card-icon, .card .card-header-primary .card-text, .card .card-header-primary:not(.card-header-icon):not(.card-header-text) {
@@ -13110,7 +13111,7 @@ fieldset[disabled] .form-group.is-focused .togglebutton label {
 }
 
 .card .card-header-rose .card-icon, .card .card-header-rose .card-text, .card .card-header-rose:not(.card-header-icon):not(.card-header-text) {
-    box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(233,30,99,.4)
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgb(71, 148, 125)
 }
 
 .card .card-header-warning .card-icon, .card .card-header-warning .card-text, .card .card-header-warning:not(.card-header-icon):not(.card-header-text) {
@@ -13239,12 +13240,13 @@ fieldset[disabled] .form-group.is-focused .togglebutton label {
             }
 
             .card .card-header.card-header-icon .card-title, .card .card-header.card-header-text .card-title {
-                margin-top: 15px;
-                color: #3c4858
+                margin-top: 0px;
+                color: #fff;
+                margin-bottom: 0px !important;
             }
 
             .card .card-header.card-header-icon h4, .card .card-header.card-header-text h4 {
-                font-weight: 300
+                font-weight: 600
             }
 
         .card .card-header.card-header-tabs .nav-tabs {
@@ -13349,7 +13351,7 @@ fieldset[disabled] .form-group.is-focused .togglebutton label {
 
         .card [class*=card-header-] .card-icon, .card [class*=card-header-] .card-text {
             border-radius: 3px;
-            background-color: #999;
+            background-color: #09a777;
             padding: 15px;
             margin-top: -20px;
             margin-right: 15px;
@@ -14853,7 +14855,8 @@ a {
     left: 0;
     z-index: 2;
     width: 260px;
-    box-shadow: 0 16px 38px -12px rgba(0,0,0,.56), 0 4px 25px 0 rgba(0,0,0,.12), 0 8px 10px -5px rgba(0,0,0,.2)
+    box-shadow: 0 16px 38px -12px rgba(0,0,0,.56), 0 4px 25px 0 rgba(0,0,0,.12), 0 8px 10px -5px rgba(0,0,0,.2);
+    /*background-image: url('../Content/img/sidebar-1.jpg');*/
 }
 
     .sidebar .caret {
@@ -14931,7 +14934,7 @@ a {
         .sidebar .nav .caret {
             margin-top: 13px;
             position: absolute;
-            right: 6px
+            right: -5px;
         }
 
         .sidebar .nav li > a:focus, .sidebar .nav li > a:hover {
@@ -15032,17 +15035,21 @@ a {
         margin: 0;
         display: block;
         position: relative;
-        z-index: 4
+        z-index: 4;
+        background: rgba(255,255,255,0.6);
     }
-
-        .sidebar .logo a.logo-mini {
-            opacity: 1;
-            float: left;
-            width: 30px;
-            text-align: center;
-            margin-left: 23px;
-            margin-right: 15px
-        }
+    .sidebar .logo img{
+        display: block;
+        margin: 0 auto;
+    }
+.sidebar .logo a.logo-mini {
+    opacity: 1;
+    float: left;
+    width: 30px;
+    text-align: center;
+    margin-left: 23px;
+    margin-right: 15px
+}
 
         .sidebar .logo a.logo-normal {
             display: block;
